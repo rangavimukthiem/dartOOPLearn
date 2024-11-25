@@ -23,7 +23,6 @@ class Trip extends Company {
   int tripCount = 0;
   double Distance = 0;
   String? DriverName;
-  String? DriverID;
   Car car;
 
   Trip(
@@ -71,6 +70,7 @@ Date ${DateTime.now()}""");
   void endTrip() {
     print("""
 Your Trip is over.... please pay the bill
+Have a nice >>>>>>>>>>>>>>>>>>>>>>>>>>>> !
  
 """);
   }
