@@ -10,7 +10,7 @@ class Company {
   void Welcome() {
     print("""
 -------------------------------------------------------------------------------
-                      2024 Welcome to $companyName $branchName 
+                      New change Welcome to $companyName $branchName 
 --------------------------------------------------------------------------------\n""");
   }
 }
