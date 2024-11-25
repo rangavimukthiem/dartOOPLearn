@@ -15,6 +15,9 @@ class Company {
   }
 }
 
+// 'PS F:\Programming\dartOOPLearn> git pull origin [ranga]
+// fatal: invalid refspec '[ranga]
+
 class Trip extends Company {
   String? driverID;
   String? fromLocation;
